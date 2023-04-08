@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,700&family=Roboto+Condensed:wght@700&display=swap');
 
 :root {
     --bs-fred: #8a222c;
@@ -294,7 +295,7 @@ li.move-right {
     grid-template-rows: auto auto;
     grid-gap: 10px;
     margin: 5rem auto;
-    max-width: 750px;
+    max-width: 950px;
     justify-content: center;
     border-top: .3rem solid var(--bs-fred);
     border-bottom: .3rem solid var(--bs-fred);
@@ -348,8 +349,9 @@ li.move-right {
 }
 
 .grey-section {
-    background-color: #e4e4e4;
+    background-color: #dfdfdfc7;
     padding: 50px 0;
+    position: relative;
 }
 
 .container-v1 {
@@ -362,7 +364,7 @@ li.move-right {
     margin-top: 7rem;
 }
 
-.container-v1 p{
+.container-v1 p {
     font-size: 1.7rem;
     color: var(--bs-gray);
     font-family: 'Roboto';
@@ -375,7 +377,7 @@ li.move-right {
     margin: 0 auto;
     text-align: center;
     padding-top: 6rem;
-    font-family: 'Roboto';
+    font-family: 'DM Sans', sans-serif;
 }
 
 .small-section {
@@ -392,9 +394,25 @@ li.move-right {
 
 .small-section h3 {
     font-size: 3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: var(--bs-light);
 }
+
+.image-container {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(50%);
+}
+
+.image-container img {
+    max-width: 100%;
+    float: right;
+    margin: 20px 0 0 20px;
+    width: 400px;
+    margin-bottom: 10rem;
+}
+
 
 
 
