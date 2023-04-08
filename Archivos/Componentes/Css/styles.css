@@ -40,6 +40,7 @@
 html {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -225,7 +226,7 @@ li.move-right {
 
 
 .contenedor {
-    background-image: url(../imagenes/slide2.jpg);
+    background-image: url(../imagenes/slide1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
