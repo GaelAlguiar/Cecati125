@@ -419,7 +419,8 @@ footer .credit span {
 
     .contenedor{
         background-size: cover;
-        height: 80vh;
+        height: 70vh;
+        width: 200vh;
         position: relative;
         box-sizing: border-box;
     }
