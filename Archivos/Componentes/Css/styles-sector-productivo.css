@@ -541,35 +541,6 @@ footer .credit span {
     line-height: 1.5;
 }
 
-@media screen and (max-width: 1100px) {
-
-    .titulo-sector{
-        height: 60vh;
-        font-size: 5rem;
-    }
-
-    .servicios{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .titulo-sector{
-        text-align: center;
-        font-family: 'Roboto';
-        color: var(--bs-light);
-        font-size: 6rem;
-        background-repeat: normal;
-        background-attachment: local;
-        background-position: left; 
-        background-size: cover; 
-        position: relative;
-        height: 60vh;
-        box-shadow: 1px 5px 15px #434343e2;
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgb(123, 2, 2)), url('../imagenes/automotriz.jpg');
-        padding: 150px 0;
-    }
-}
-
 /* FIN SECTION SERVICIOS */
 
 
@@ -582,7 +553,7 @@ footer .credit span {
 
     background-color: rgba(218, 0, 0, 0.754);
     box-shadow: 6px 8px 15px var(--bs-red);
-    width: 1200px;
+    width: 80%;
     height: 150px;
     margin: 10px auto 0;
     text-align: center;
@@ -648,7 +619,7 @@ footer .credit span {
     color: #fff;
     background-color: rgba(218, 0, 0, 0.754);
     box-shadow: 6px 8px 15px var(--bs-red);
-    width: 1200px;
+    width: 80%;
     height: 150px;
     position: relative;
     top: -60px;
@@ -670,3 +641,78 @@ footer .credit span {
     margin: 10px;
 }
 
+/* RESPONSIVE DE LA PAGINA */
+
+@media screen and (max-width: 1100px) {
+
+    /* SECTION SERVICIOS */
+    .titulo-sector{
+        height: 60vh;
+        font-size: 5rem;
+    }
+
+    .servicios{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-sector{
+        text-align: center;
+        font-family: 'Roboto';
+        color: var(--bs-light);
+        font-size: 6rem;
+        background-repeat: normal;
+        background-attachment: local;
+        background-position: left; 
+        background-size: cover; 
+        position: relative;
+        height: 60vh;
+        box-shadow: 1px 5px 15px #434343e2;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgb(123, 2, 2)), url('../imagenes/automotriz.jpg');
+        padding: 150px 0;
+    }
+    /* FIN SECTION SERVICIOS */
+
+    /* SECTION OFRECEMOS */
+    .titulo-ofrecemos{
+        width: 90%;
+    }
+
+    .carta-ofrecemos{
+        flex-direction: column;
+    }
+
+    .ofrecemos .subtitulo-ofrecemos{
+        text-align: center;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .ofrecemos .columna .texto{
+        margin: 30px  0  ;
+    }
+
+    .ofrecemos img{
+        width: 120%;
+        object-fit: scale-down ;
+    }
+    /* FIN SECTION OFRECEMOS */
+
+    /* SECTION EMPRESAS */
+    .titulo-empresas{
+        margin-top: 50px;
+    }
+
+    .empresas img{
+        width: 180px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .empresas img{
+        width: 140px;
+        height: 70px;
+    }
+
+}
