@@ -735,3 +735,22 @@ footer .credit span {
     }
 
 }
+
+@media screen and (max-width: 1100px) {
+
+    .contenedor{
+        text-align: center;
+        font-family: 'Roboto';
+        color: var(--bs-light);
+        font-size: 6rem;
+        background-repeat: normal;
+        background-attachment: scroll;
+        background-position: right; 
+        background-size: cover; 
+        position: relative;
+        height: 60vh;
+        box-shadow: 1px 5px 15px #434343e2;
+        background-image: url('../imagenes/slide1.jpg');
+        padding: 150px 0;
+    } 
+}
