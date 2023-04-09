@@ -63,7 +63,6 @@ header {
     top: 0;
     left: 0;
     background-color: var(--bs-gray-dark);
-    box-shadow: var(--box-shadow);
     justify-content: space-between;
 }
 
@@ -274,7 +273,6 @@ li.move-right {
 .boton {
     padding: 7px 20px;
     background-color: var(--bs-red);
-    color: var(--bs-light);
     border: none;
     border-radius: .2rem;
     box-shadow: var(--box-shadow);
@@ -285,6 +283,10 @@ li.move-right {
     align-self: flex-start;
     text-transform: uppercase;
     font-family: 'Roboto';
+}
+
+.boton a{
+    color: var(--bs-light);
 }
 
 .boton:hover {
