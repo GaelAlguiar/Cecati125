@@ -316,10 +316,9 @@ li.move-right {
 }
 
 .titulo-m {
-    font-family: 'Roboto';
     color: var(--bs-dark);
-    font-size: 2rem;
     text-transform: uppercase;
+    font-size: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
