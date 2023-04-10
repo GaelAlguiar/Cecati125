@@ -433,7 +433,7 @@ li.move-right {
 }
 
 .lead{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 24px;
     font-weight: 400;
@@ -464,7 +464,8 @@ li.move-right {
 footer {
     background-color: var(--bs-dark);
     box-shadow: var(--box-shadow);
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family:'Open Sans', Arial, sans-serif;
+    margin-top: 5rem;
 }
 
 footer .box-container {
