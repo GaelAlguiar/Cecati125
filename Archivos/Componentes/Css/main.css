@@ -458,7 +458,9 @@ li.move-right {
 
 
 
-
+.fb-comments{
+    width: 70%;
+}
 
 footer {
     background-color: var(--bs-dark);
@@ -523,7 +525,7 @@ footer .credit {
 }
 
 footer .credit span {
-    color: var(--bs-light-gray);
+    color: var(--bs-gray);
 }
 
 .dropdown {
