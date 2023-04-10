@@ -456,11 +456,6 @@ li.move-right {
 
 
 
-
-.fb-comments{
-    width: 70%;
-}
-
 footer {
     background-color: var(--bs-dark);
     box-shadow: var(--box-shadow);
@@ -468,7 +463,7 @@ footer {
     margin-top: 5rem;
 }
 
-footer .box-container {
+footer .box-container1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap: 1.5rem;
@@ -488,7 +483,7 @@ footer .box-container {
     padding: .7rem;
 }
 
-footer .box-container .box h3 {
+footer .box-container1 .box1 h3 {
     font-size: 2.5rem;
     color: var(--bs-light);
     text-transform: capitalize;
@@ -496,7 +491,7 @@ footer .box-container .box h3 {
     margin-left: 6rem;
 }
 
-footer .box-container .box a {
+footer .box-container1 .box1 a {
     display: block;
     padding: 1rem 0;
     color: var(--bs-light);
@@ -505,13 +500,13 @@ footer .box-container .box a {
     margin-left: 6rem;
 }
 
-footer .box-container .box a i {
+footer .box-container1 .box1 a i {
     padding-right: .6rem;
     transition: .2s linear;
     color: var(--bs-red);
 }
 
-footer .box-container .box a:hover i {
+footer .box-container1 .box1 a:hover i {
     padding-right: 1.4rem;
 }
 
