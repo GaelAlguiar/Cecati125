@@ -541,7 +541,6 @@ footer .credit span {
     line-height: 1.5;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 1200px) {
 
     .titulo-sector{
@@ -571,8 +570,6 @@ footer .credit span {
     }
 }
 
-=======
->>>>>>> 36595185973db5dd09692e8074c7ce20fa64316a
 /* FIN SECTION SERVICIOS */
 
 
@@ -583,8 +580,8 @@ footer .credit span {
     padding: 50px 0 0;
     color: #fff;
 
-    background-color: rgba(218, 0, 0, 0.754);
-    box-shadow: 6px 8px 15px var(--bs-red);
+    background-color: var(--bs-fred);
+    box-shadow: 6px 8px 15px var(--bs-fred);
     width: 80%;
     height: 150px;
     margin: 10px auto 0;
@@ -649,8 +646,8 @@ footer .credit span {
     font-size: 36px;
     padding: 50px 0 0;
     color: #fff;
-    background-color: rgba(218, 0, 0, 0.754);
-    box-shadow: 6px 8px 15px var(--bs-red);
+    background-color: var(--bs-fred);
+    box-shadow: 6px 8px 15px var(--bs-fred);
     width: 80%;
     height: 150px;
     position: relative;
