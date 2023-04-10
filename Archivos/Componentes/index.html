@@ -7,6 +7,13 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cecati no.125</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">      
+	<link href="css/responsive.css" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="Css/whats.css" rel="stylesheet">
@@ -16,9 +23,15 @@
 </head>
 
 <body>
-    <div class="nav-bottom">
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v16.0"
+        nonce="4AuTQWKt"></script>
+
+    <div class="nav-bottom wow fadeInDown">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <div class="popup-whatsapp fadeIn">
+        <div class="popup-whatsapp fadeIn wow" data-wow-duration="100ms"
+        data-wow-delay="600ms">
             <div class="content-whatsapp -top"><button type="button" class="closePopup">
                     <i class="material-icons icon-font-color">close</i>
                 </button>
@@ -130,25 +143,13 @@
                         </a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">1</a>
+                                <a href="#">CAE</a>
                             </li>
                             <li>
-                                <a href="#">2</a>
+                                <a href="#">ROCO</a>
                             </li>
                             <li>
-                                <a href="#">3</a>
-                            </li>
-                            <li>
-                                <a href="#">4</a>
-                            </li>
-                            <li>
-                                <a href="#">5</a>
-                            </li>
-                            <li>
-                                <a href="#">6</a>
-                            </li>
-                            <li>
-                                <a href="#">7</a>
+                                <a href="#">Cursos Regulares</a>
                             </li>
                         </ul>
                     </li>
@@ -167,14 +168,91 @@
     </header>
 
     <div class="contenedor">
-        <div class="titulo-contenedor">
+        <div class="titulo-contenedor wow fadeInDown" data-wow-duration="1000ms"
+        data-wow-delay="600ms">
             <h1 class="titulo">Ven y capacítate para<br>crecer en tu trabajo o<br>emprender tu negocio</h1>
-            <button class="boton" ><a href="">Ver más...</a></button>
+            <button class="boton"><a href="">Ver más...</a></button>
         </div>
     </div>
 
 
     <main>
+
+        <section class="small-section">
+            <div class="container-v2">
+                <h3>Acerca de Nosotros</h3>
+            </div>
+        </section>
+        <section class="grey-section">
+            <section id="Acerca">
+                <div class="container">
+                    <div class="center wow fadeInDown">
+                        <p class="lead">Somos un Centro de Capacitación para el Trabajo Industrial (CECATI), y como
+                            plantel educativo estamos adscritos a la Dirección General de Centros de Formación para el
+                            Trabajo, que a su vez depende de la Subsecretaría de Educación Media Superior (SEMS) de la
+                            Secretaría de Educación Pública Federal y como tal, forma parte del Sistema Nacional de
+                            Educación Tecnológica del gobierno federal mexicano.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="features">
+                            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms"
+                                data-wow-delay="600ms">
+                                <div class="feature-wrap">
+                                    <i class="fa fa-file"></i>
+                                    <h2>Certifícate</h2>
+                                    <h3>Evaluaciones con fines de certificación.</h3>
+                                </div>
+                            </div><!--/.col-md-4-->
+                            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms"
+                                data-wow-delay="600ms">
+                                <div class="feature-wrap">
+                                    <i class="fa fa-user"></i>
+                                    <h2>Aprende</h2>
+                                    <h3>Tenemos una gran variedad de cursos.</h3>
+                                </div>
+                            </div><!--/.col-md-4-->
+
+                            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms"
+                                data-wow-delay="600ms">
+                                <div class="feature-wrap">
+                                    <i class="fa fa-calendar"></i>
+                                    <h2>Actualiza</h2>
+                                    <h3>Nuevos cursos continuamente.</h3>
+                                </div>
+                            </div><!--/.col-md-4-->
+
+                            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms"
+                                data-wow-delay="600ms">
+                                <div class="feature-wrap">
+                                    <i class="fa fa-money"></i>
+                                    <h2>Ahorra</h2>
+                                    <h3>Aprende oficios para aplicar en tu vida cotidiana.</h3>
+                                </div>
+                            </div><!--/.col-md-4-->
+
+                            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms"
+                                data-wow-delay="600ms">
+                                <div class="feature-wrap">
+                                    <i class="fa fa-briefcase"></i>
+                                    <h2>Comienza tu propio negocio</h2>
+                                    <h3>Independizate y se tu propio jefe.</h3>
+                                </div>
+                            </div><!--/.col-md-4-->
+
+                            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms"
+                                data-wow-delay="600ms">
+                                <div class="feature-wrap">
+                                    <i class="fa fa-cogs"></i>
+                                    <h2>Capacítate</h2>
+                                    <h3>Adquiere nuevas habilidades para tu currículum.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
 
         <div class="container-m">
             <div class="item imagen-izquierda">
@@ -184,7 +262,8 @@
                 <div class="titulo-m">
                     <h2>Misión</h2>
                 </div>
-                <div class="contenido-m">
+                <div class="contenido-m wow fadeInDown" data-wow-duration="1000ms"
+                data-wow-delay="600ms">
                     <p>Capacitar permanentemente para y en el trabajo en diferentes especialidades a corto plazo, a
                         mujeres y hombres, asi como certificar las competencias adquiridas por las personas de manera
                         empírica, contribuyendo a su desarrollo humano; fomentando una actitud analítica, emprendedora,
@@ -197,7 +276,8 @@
                 <div class="titulo-m">
                     <h2>Visión</h2>
                 </div>
-                <div class="contenido-m">
+                <div class="contenido-m wow fadeInDown" data-wow-duration="1000ms"
+                data-wow-delay="600ms">
                     <p>Ser la primera opción de capacitación para el trabajo a nivel estatal, por la calidad de su
                         servicio educativo sustentada en el compromiso de sus trabajadores, consolidándose como el
                         principal proveedor de personas capacitadas para el sector productivo o el autoempleo.</p>
@@ -208,37 +288,14 @@
             </div>
         </div>
 
-        <section class="small-section">
-            <div class="container-v2">
-                <h3>¿QUIÉNES SOMOS?</h3>
-            </div>
-        </section>
-        <section class="grey-section">
-            <div class="container-v1">
-                <p>La secretaria de Educación Pública, cumpliendo con los objetivos de satisfacer las necesidades
-                    civiles, sociales, técnicas y productivas promovió la creación del subsistema de Centros de
-                    Capacitación para el Trabajo Industrial (CECATI).
 
-                    En la actualidad existen 201 planteles a lo largo y ancho de nuestra República Mexicana cuyos
-                    objetivos generales son los siguientes:
-                    <br>
-                    <br> ✓ Proporcionar Educación Modular con 80% Practica y 20 % Teoría.
-                    <br>  ✓ Formar personas que sepan trabajar y puedan integrarse al medio social y productivo.
-                    <br> ✓ Organizar la enseñanza de oficios específicos.
-                    <br> ✓ Establecer el aprendizaje a los trabajadores no calificados.
-                    <br> ✓ Formar a personas en educación Basada en Normas de Competencia Laboral.
-                    <br> ✓ Fomentar la Evaluación y Certificación en Estándares de Competencia.</p>
-            </div>
-
-            <div class="image-container">
-                <img src="../Componentes/imagenes/sep-logo2.png" alt="Imagen de ejemplo">
-            </div>
-        </section>
 
 
     </main>
 
 
+    <div class="fb-comments" data-href="http://192.168.1.73:5500/Archivos/Componentes/index.html" data-width="100%"
+        data-numposts="5"></div>
 
 
 
@@ -331,6 +388,11 @@
 
     </footer>
 
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="Js/scripts.js"></script>
     <script src="Js/whats.js"></script>
 </body>
