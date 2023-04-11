@@ -2,8 +2,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
-  grid-auto-rows: minmax(90px, auto);
+  grid-auto-rows: minmax(70px, auto);
   font-family: 'Open Sans', Arial, sans-serif;
+  margin: 30px;
+  box-shadow:  0 1rem 1rem rgba(0, 0, 0, .7);;
 }
 
 
@@ -17,7 +19,6 @@
   padding: 50px;
   margin: 10px;
 }
-
 
 .fondo {
   grid-column: 1 / 6;
