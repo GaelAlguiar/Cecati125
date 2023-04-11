@@ -67,10 +67,10 @@ header {
 
 .logo img {
     height: 60px;
-    width: 300px;
+    width: 270px;
     margin-top: 1.2rem;
-    margin-left: 1rem;
     margin-right: 1rem;
+    margin-left: 1rem;
     margin-bottom: 1.5rem;
 }
 
@@ -97,11 +97,11 @@ nav {
 header img {
     height: 45px;
     width: 230px;
-    margin-right: 30rem;
+    padding-right: 1rem;
 }
 
 .titulo{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -109,7 +109,6 @@ header img {
     height: 5.5rem;
     display: flex;
     border-radius: 100%;
-    margin-right: 4rem;
     margin-top: 1rem;
 }
 
@@ -228,15 +227,14 @@ li.move-right {
 
 
 .contenedor {
-    background-image: linear-gradient(to bottom, rgba(252, 251, 251, 0.156), rgb(255, 0, 0)), url('../imagenes/slide2.jpg');
+    background-image: linear-gradient(to bottom, rgba(252, 251, 251, 0.156), rgb(255, 0, 0)), url('../imagenes/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 70vh;
+    height: 84.6vh;
     font-family: 'Roboto Condensed', sans-serif;
-    box-shadow: 1px 5px 15px #434343e2;
 }
 
 .contenedor:before {
@@ -266,7 +264,7 @@ li.move-right {
 .titulo {
     margin: 60px 0 0;
     color: var(--bs-light);
-    font-size: 2.9rem;
+    font-size: 3.5rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -357,9 +355,7 @@ li.move-right {
     margin: 5rem;
     padding: 50px 0;
     position: relative;
-    box-shadow:
-        inset 0 -3em 2em rgba(0, 0, 0, 0.1),
-        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow:  0 .5rem 1rem rgba(0, 0, 0, .7);
 }
 
 .container-v1 {
@@ -390,13 +386,13 @@ li.move-right {
 
 .small-section {
     background-color: var(--bs-fred);
-    box-shadow: 6px 8px 15px var(--bs-fred);
+    box-shadow:  0 .5rem 1rem rgba(118, 0, 0, 0.875);
     width: 1000px;
     height: 180px;
     margin: 5px auto 0;
     text-align: center;
     position: relative;
-    top: 90px;
+    top: 80px;
     z-index: 1;
 }
 
@@ -453,8 +449,25 @@ li.move-right {
 
 
 
+.custom-shape-divider-bottom-1681240468 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1681240468 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 2px);
+    height: 145px;
+}
 
+.custom-shape-divider-bottom-1681240468 .shape-fill {
+    fill: #ffffff;
+}
 
 footer {
     background-color: var(--bs-dark);
@@ -484,7 +497,7 @@ footer .box-container1 {
 }
 
 footer .box-container1 .box1 h3 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     color: var(--bs-light);
     text-transform: capitalize;
     margin-bottom: 2rem;
@@ -494,14 +507,14 @@ footer .box-container1 .box1 h3 {
 footer .box-container1 .box1 a {
     display: block;
     padding: 1rem 0;
-    color: var(--bs-light);
-    font-size: 1.5rem;
+    color: var(--bs-light-gray);
+    font-size: 1.4rem;
     line-height: 3rem;
     margin-left: 6rem;
 }
 
 footer .box-container1 .box1 a i {
-    padding-right: .6rem;
+    padding-right: .7rem;
     transition: .2s linear;
     color: var(--bs-red);
 }
@@ -569,7 +582,11 @@ footer .credit span {
 }
 
 /* Media Queries */
-@media (max-width: 780px) {
+@media screen and (max-width: 780px) {
+
+    header{
+        width: 100%;
+    }
 
     .container-m {
         grid-template-columns: 1fr;
@@ -657,19 +674,47 @@ footer .credit span {
 
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
 
     .contenedor {
         background-image: linear-gradient(to bottom, rgba(252, 251, 251, 0.156), rgb(255, 0, 0)), url('../imagenes/slide2.jpg');
         background-repeat: normal;
         background-size: cover;
         position: relative;
-        height: 70vh;
+        height: 83.5vh;
         width: 200vh;
         position: relative;
         box-sizing: border-box;
     }
 
+    .custom-shape-divider-bottom-1681240468 svg {
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .titulo {
+        margin: 15px;
+        color: var(--bs-light);
+        font-size: 3.5rem;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .titulo-contenedor {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 60px;
+        box-sizing: border-box;
+    }
+    
+    
     .boton {
         padding: 5px 10px;
     }
