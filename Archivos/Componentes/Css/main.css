@@ -645,10 +645,14 @@ footer .credit span {
     margin-top: 10px;
     font-size: 1.2rem;
     line-height: 1.2;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     text-align: justify;
     color: var(--bs-gray);
     font-family: 'Roboto';
+}
+
+.contenido .fecha{
+    color: var(--bs-dark);
 }
 
 .vermas {
@@ -662,7 +666,7 @@ footer .credit span {
 }
 
 .contenido .vermas a {
-    color: var(--bs-gray-dark);
+    color: var(--bs-dark);
     font-weight: bold;
     text-align: right;
     margin-top: auto;
@@ -671,7 +675,7 @@ footer .credit span {
 }
 
 .contenido .vermas a:hover {
-    color: var(--bs-gray);
+    color: var(--bs-fred);
 }
 
 
