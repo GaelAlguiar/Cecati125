@@ -605,6 +605,7 @@ footer .credit span {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    border: .5px solid var(--bs-light-gray);
 }
 
 .noticia:hover {
