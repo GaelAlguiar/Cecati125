@@ -160,8 +160,12 @@ nav ul.nav-list>li>a[id*="requisitos"]:hover {
 .nav-list a[id*="sector-productivo"]:hover,
 .nav-list a[id*="ofertas-educativas"]:hover,
 .nav-list a[id*="preparatoria-abierta"]:hover,
-.nav-list a[id*="requisitos"]:hover {
+.nav-list a[id*="requisitos"]:hover{
     color: var(--bs-red);
+}
+
+.sub-menu a:hover{
+    background-color: var(--bs-gray-dark);
 }
 
 .btn {
