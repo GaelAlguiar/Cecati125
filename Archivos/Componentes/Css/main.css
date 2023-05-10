@@ -133,8 +133,6 @@ nav ul.nav-list>li>a[id*="requisitos"]:hover {
     padding-bottom: 0.6rem;
 }
 
-
-
 .sub-menu li {
     line-height: 4rem;
 }
@@ -598,7 +596,7 @@ footer .credit span {
     font-family: 'Roboto Condensed';
     font-size: 3rem;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 
 .noticia {
@@ -699,8 +697,6 @@ footer .credit span {
     border-radius: 50%;
     width: 60px;
     pointer-events: all;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%)
 }
 
