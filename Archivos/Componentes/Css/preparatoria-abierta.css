@@ -540,6 +540,24 @@ footer .credit span {
 }
 /* falta hacer el mediaquery de que desaparesca la imagen */
 
+@media screen and (max-width: 1000px) {
+    .contenedor-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .img-prepa{
+        display: none;
+    }
+
+    .texto-preparatoria{
+        padding: 10px 30px !important;
+    }
+}
+
 /* FIN SECTION INFO PREPARATORIA */
 
 
@@ -601,7 +619,7 @@ footer .credit span {
 }
 
 .preguntas-frecuentes{
-    padding: 2% 5% ;
+    padding: 5% 5% ;
     text-align: justify;
 }
 
@@ -620,4 +638,10 @@ footer .credit span {
     color: white;
     background-color: #8a222ce8;
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+@media screen and (max-width: 700px) {
+    .preguntas-frecuentes{
+        padding: 20% 5% ;
+    }
 }
