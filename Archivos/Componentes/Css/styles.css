@@ -31,8 +31,10 @@ h1 {
 }
 
 .t4{
+  font-size: 2.4rem;
   color: #8a222c;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
 }
 
 h2 {
@@ -77,17 +79,23 @@ a:focus {
   box-shadow:  0 .5rem 1rem rgba(0, 0, 0, .7);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 3px;
   padding: 10px;
   padding-bottom: 10px;
   position: relative;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   margin-top: 60px;
 }
 
 .get-started .t2 {
   padding-top: 30px;
-  margin-bottom: 0px;
+}
+
+.get-started .t3 {
+  padding-top: 10px;
+}
+
+.get-started .t4 {
+  padding-top: 18px
 }
 
 .request {
@@ -97,9 +105,13 @@ a:focus {
   margin-left: -110px;
 }
 
+.request :hover{
+  background-color: #da0101;
+}
+
 .request h4 {
   position: absolute;
-  width: 220px;
+  width: 143.8px;
   position:relative;
   font-family: 'DM Sans', sans-serif;
 }
@@ -115,10 +127,11 @@ a:focus {
 }
 
 .get-started p{
-  padding: 50px;
+  padding: 30px 80px 30px ;
   font-size: 1.5rem;
   font-family: 'DM Sans', sans-serif;
   font-style: italic;
+  text-align: justify;
 }
 
 
