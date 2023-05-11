@@ -1,0 +1,27 @@
+.especialidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: .3rem solid var(--bs-fred);
+}
+.img-esp{
+    width: 300px;
+    border-radius: 3rem;
+    padding-right: 20px;
+    border-bottom: .3rem solid var(--bs-fred);
+}
+.txt-esp{
+    width: 800px;
+    text-align: start;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(123, 2, 2);
+    font-family: 'DM Sans', sans-seri;
+    border-radius: 3REM;
+    color: white;
+}
+.titulo-esp{
+    font-size: x-large;
+}
