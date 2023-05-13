@@ -704,6 +704,15 @@ footer .credit span {
 /* Media Queries */
 @media screen and (max-width: 780px) {
 
+    #preloader{
+        background: var(--bs-light) url(../imagenes/loader.gif) no-repeat center center;
+        background-size: 50%;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+
     header {
         width: 100%;
     }
@@ -928,10 +937,10 @@ footer .credit span {
     .nav-list li:not(:last-child):hover {
         padding-bottom: 0;
     }
-
 }
 
 @media (min-width: 1300px) {
+
     .noticias {
         display: flex;
         justify-content: space-between;
@@ -970,4 +979,13 @@ footer .credit span {
     .ver-mas {
         font-size: 16px;
     }
+}
+
+#preloader{
+    background: white url(../imagenes/loader.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
