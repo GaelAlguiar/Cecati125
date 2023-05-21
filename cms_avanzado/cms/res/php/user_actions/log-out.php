@@ -1,5 +1,5 @@
 <?php
     session_start();
     session_destroy();
-    header("location: http://localhost/cms_avanzado/cms/");
+    header("location: https://prueba-poo.000webhostapp.com/cms_avanzado/cms/");
 ?>
