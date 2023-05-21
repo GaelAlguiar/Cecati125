@@ -81,30 +81,21 @@
                         <a href="sector-productivo.php" id="sector-productivo">SECTOR &nbspPRODUCTIVO</a>
                     </li>
                     <li>
-                        <a href="#" id="ofertas-educativas">OFERTAS &nbspEDUCATIVAS&nbsp
+                        <a id="ofertas-educativas">OFERTAS &nbspEDUCATIVAS&nbsp
                             <i class="icon ion-md-arrow-dropdown"></i>
                         </a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">1</a>
+                                <a href="CR.php">CR</a>
                             </li>
                             <li>
-                                <a href="#">2</a>
+                                <a href="CE.php">CE</a>
                             </li>
                             <li>
-                                <a href="#">3</a>
+                                <a href="CAE.php">CAE</a>
                             </li>
                             <li>
-                                <a href="#">4</a>
-                            </li>
-                            <li>
-                                <a href="#">5</a>
-                            </li>
-                            <li>
-                                <a href="#">6</a>
-                            </li>
-                            <li>
-                                <a href="#">7</a>
+                                <a href="ROCO.php">ROCO</a>
                             </li>
                         </ul>
                     </li>

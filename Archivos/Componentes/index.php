@@ -1,10 +1,4 @@
-<?php
-
-session_start();
-
-?>
-
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="en">
 
 <head>
@@ -228,7 +222,7 @@ session_start();
                         facilitadores del proceso de aprendizaje.
                     </p>
                 </strong>
-                <iframe type="text/html" src="https://www.youtube.com/embed/_6SFhhDMj4s?rel=0&amp;wmode=opaque"
+                <iframe type="text/php" src="https://www.youtube.com/embed/_6SFhhDMj4s?rel=0&amp;wmode=opaque"
                     frameborder="0" allowFullScreen="true" width="480" height="270"></iframe>
                 <div class="request">
                     <h4><a href="https://sites.google.com/a/dgb.email/enlace-caed/home/sobre-los-caed/nuevo-leon/cecati-125"
@@ -258,7 +252,7 @@ session_start();
                     10 am a 2:00 pm. <br><br>
                     Información :
                     📲811 686 79 12</p>
-                <button class="vermas"><a href="ver-mas.html">Ver más&nbsp&nbsp&nbsp➤</a></button>
+                <button class="vermas"><a href="ver-mas.php">Ver más&nbsp&nbsp&nbsp➤</a></button>
             </div>
         </div>
         <div class="noticia">
@@ -279,7 +273,7 @@ session_start();
                     2:00 pm a 7:00 pm. <br><br>
                     Información :
                     📲818 310 66 01</p>
-                <button class="vermas"><a href="ver-mas.html">Ver más&nbsp&nbsp&nbsp➤</a></button>
+                <button class="vermas"><a href="ver-mas.php">Ver más&nbsp&nbsp&nbsp➤</a></button>
             </div>
         </div>
         <div class="noticia">
@@ -300,13 +294,13 @@ session_start();
                     10 am a 2:00 pm. <br><br>
                     Información :
                     📲811 686 79 12</p>
-                <button class="vermas"><a href="ver-mas.html">Ver más&nbsp&nbsp&nbsp➤</a></button>
+                <button class="vermas"><a href="ver-mas.php">Ver más&nbsp&nbsp&nbsp➤</a></button>
             </div>
         </div>
     </section>
 
     <div class="container">
-        <div class="fb-comments" data-href="http://192.168.1.73:5500/Archivos/Componentes/index.html" data-width="100%"
+        <div class="fb-comments" data-href="http://192.168.1.73:5500/Archivos/Componentes/index.php" data-width="100%"
             data-numposts="3" data-order-by="reverse_time"></div>
     </div>
 
