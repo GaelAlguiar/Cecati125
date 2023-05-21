@@ -14,21 +14,21 @@
             <a><i class="fas fa-angle-right"></i>Especialidades&nbsp&nbsp<i
                     class="icon ion-md-arrow-dropdown"></i></a>
             <div class="menu">
-                <ul>
+            <ul>
                     <li><a href="mantenimiento-indus.php">Mantenimiento al Sistema Eléctrico Automotriz</a>
                     </li>
-                    <li><a href="#">Mecánico Automotriz</a></li>
-                    <li><a href="#">Mecátronica</a></li>
-                    <li><a href="#">Atención Integral a Personas Adultas Mayores</a></li>
-                    <li><a href="#">Atención Integral a Personas con Discapacidad</a></li>
-                    <li><a href="#">Rehabilitación Física</a></li>
-                    <li><a href="#">Vendaje Funcional</a></li>
-                    <li><a href="#">Electrónica</a></li>
-                    <li><a href="#">Informática</a></li>
-                    <li><a href="#">Mantenimiento a Equipos y Sistemas de Computo</a></li>
-                    <li><a href="#">Asistente Ejecutiva</a></li>
-                    <li><a href="#">Estilismo y Diseño de Imagen</a></li>
-                    <li><a href="#">Confección Industrial de Ropa</a></li>
+                    <li><a href="especialidades.php#Maquinas-Herramientas">Mecánico Automotriz</a></li>
+                    <li><a href="especialidades.php#Mantenimiento Electromecánico">Mecátronica</a></li>
+                    <li><a href="especialidades.php#Soporte a Instalaciones Eléctricas y Motores Eléctricos">Atención Integral a Personas Adultas Mayores</a></li>
+                    <li><a href="especialidades.php#Refrigeración de Aire Acondicionado">Atención Integral a Personas con Discapacidad</a></li>
+                    <li><a href="especialidades.php#Atención Integral a Personas Adultas Mayores">Rehabilitación Física</a></li>
+                    <li><a href="especialidades.php#Administración">Vendaje Funcional</a></li>
+                    <li><a href="#Soporte a Instalaciones Eléctricas y Motores Eléctricos">Electrónica</a></li>
+                    <li><a href="especialidades.php#Ofimática (Informática)">Informática</a></li>
+                    <li><a href="especialidades.php#Dibujo Industrial y Arquitectónico">Mantenimiento a Equipos y Sistemas de Computo</a></li>
+                    <li><a href="especialidades.php#Administración">Asistente Ejecutiva</a></li>
+                    <li><a href="especialidades.php#Confección Industrial de Ropa">Estilismo y Diseño de Imagen</a></li>
+                    <li><a href="especialidades.php#Administración">Confección Industrial de Ropa</a></li>
                 </ul>
             </div>
         </div>
@@ -38,15 +38,15 @@
                     class="icon ion-md-arrow-dropdown"></i></a>
             <div class="menu">
                 <ul>
-                    <li><a href="">Cursos Regulares</a></li>
-                    <li><a href="#">Cursos de Extensión</a></li>
-                    <li><a href="#">CAE</a></li>
-                    <li><a href="#">ROCO</a></li>
+                    <li><a href="CR.php">Cursos Regulares</a></li>
+                    <li><a href="CE.php">Cursos de Extensión</a></li>
+                    <li><a href="CAE.php">CAE</a></li>
+                    <li><a href="ROCO.php">ROCO</a></li>
                 </ul>
             </div>
         </div>
-        <a href="#"><i class="fas fa-angle-right"></i>Preparatoria Abierta</a>
-        <a href="#"><i class="fas fa-angle-right"></i>Requisitos</a>
+        <a href="prepartoria-abierta.php"><i class="fas fa-angle-right"></i>Preparatoria Abierta</a>
+        <a href="requisitos.php"><i class="fas fa-angle-right"></i>Requisitos</a>
     </div>
     <div class="box1">
         <h3>Dirección</h3>
