@@ -38,9 +38,10 @@
                     class="icon ion-md-arrow-dropdown"></i></a>
             <div class="menu">
                 <ul>
+                    <li><a href="">Cursos Regulares</a></li>
+                    <li><a href="#">Cursos de Extensión</a></li>
                     <li><a href="#">CAE</a></li>
                     <li><a href="#">ROCO</a></li>
-                    <li><a href="#">Cursos Regulares</a></li>
                 </ul>
             </div>
         </div>

@@ -81,7 +81,7 @@
                         <a href="sector-productivo.php" id="sector-productivo">SECTOR &nbspPRODUCTIVO</a>
                     </li>
                     <li>
-                        <a id="ofertas-educativas">OFERTAS &nbspEDUCATIVAS&nbsp
+                        <a href="#" id="ofertas-educativas">OFERTAS &nbspEDUCATIVAS&nbsp
                             <i class="icon ion-md-arrow-dropdown"></i>
                         </a>
                         <ul class="sub-menu">

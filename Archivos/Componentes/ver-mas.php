@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cecati no.125</title>
     <link rel="shortcut icon" href="imagenes/Favicon-cecati.png" type="image/x-icon">
+    
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- boostrap -->
@@ -54,7 +55,7 @@
         <div class="circle-anime"></div>
     </div>
 
-    <?php 
+    <?php
     include 'componentes/header.php';
     ?>
 
@@ -139,15 +140,29 @@
 
     </main>
 
-    <?php 
+    <?php
     include 'componentes/footer.php';
     ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-    <script src="Js/scripts.js"></script>
+    <!--Bootstrap y Recursos Pre realizados-->
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="Js/whats.js"></script>
+
+    <!--Javascrip realizado-->
+    <script src="Js/scripts.js"></script>
+
+    <!--Preloader-->
+    <script>
+        const preloader = document.querySelector("#preloader");
+
+        window.addEventListener("load", () => {
+            preloader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>

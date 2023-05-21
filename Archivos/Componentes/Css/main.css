@@ -55,13 +55,13 @@ ul {
 }
 
 header {
-    display: flex;
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: var(--bs-gray-dark);
-    justify-content: space-between;
+    display: flex !important;
+    width: 100% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: var(--bs-gray-dark) !important;
+    justify-content: space-between !important;
 }
 
 .logo img {
@@ -130,7 +130,7 @@ nav ul.nav-list>li>a[id*="sector-productivo"]:hover,
 nav ul.nav-list>li>a[id*="ofertas-educativas"]:hover,
 nav ul.nav-list>li>a[id*="preparatoria-abierta"]:hover,
 nav ul.nav-list>li>a[id*="requisitos"]:hover {
-    padding-bottom: 0.6rem;
+    padding-bottom: 0.6rem !important;
 }
 
 .sub-menu li {
@@ -138,11 +138,11 @@ nav ul.nav-list>li>a[id*="requisitos"]:hover {
 }
 
 .nav-list a {
-    display: block;
-    color: var(--bs-light);
-    padding: 0 1.2rem;
-    font-size: 1.3rem;
-    transition: color 650ms;
+    display: block !important;
+    color: var(--bs-light) !important;
+    padding: 0 1.2rem !important;
+    font-size: 1.3rem !important;
+    transition: color 650ms !important;
 }
 
 .nav-list li i a {
@@ -159,11 +159,11 @@ nav ul.nav-list>li>a[id*="requisitos"]:hover {
 .nav-list a[id*="ofertas-educativas"]:hover,
 .nav-list a[id*="preparatoria-abierta"]:hover,
 .nav-list a[id*="requisitos"]:hover{
-    color: var(--bs-red);
+    color: var(--bs-red) !important;
 }
 
 .sub-menu a:hover{
-    background-color: var(--bs-gray-dark);
+    background-color: var(--bs-gray-dark) !important;
 }
 
 .btn {
@@ -176,63 +176,63 @@ nav ul.nav-list>li>a[id*="requisitos"]:hover {
 }
 
 .btn:hover {
-    color: var(--bs-light);
-    background-color: rgba(0, 0, 0, 0.60);
+    color: var(--bs-light) !important;
+    background-color: rgba(0, 0, 0, 0.60) !important;
 }
 
 .sub-menu {
-    width: 28.8rem;
-    display: block;
-    position: absolute;
-    border-top: 3px solid var(--bs-fred);
-    box-shadow: var(--box-shadow);
-    background-color: var(--bs-dark);
-    z-index: 100;
-    top: 10rem;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 650ms ease;
+    width: 28.8rem !important;
+    display: block !important;
+    position: absolute !important;
+    border-top: 3px solid var(--bs-fred) !important;
+    box-shadow: var(--box-shadow) !important;
+    background-color: var(--bs-dark) !important;
+    z-index: 100 !important;
+    top: 10rem !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: all 650ms ease !important;
 }
 
 .sub-menu::before {
-    content: "";
-    position: absolute;
-    top: -2.5rem;
-    left: 3rem;
-    border: 1.2rem solid transparent;
-    border-bottom-color: var(--bs-fred);
+    content: "" !important;
+    position: absolute !important;
+    top: -2.5rem !important;
+    left: 3rem !important;
+    border: 1.2rem solid transparent !important;
+    border-bottom-color: var(--bs-fred) !important;
 }
 
 .sub-menu .sub-menu::before {
-    top: .9rem;
-    left: -2.5rem;
-    border: 1.2rem solid transparent;
-    border-right-color: var(--bs-fred);
+    top: .9rem !important;
+    left: -2.5rem !important;
+    border: 1.2rem solid transparent !important;
+    border-right-color: var(--bs-fred) !important;
 }
 
 .sub-menu .sub-menu {
-    margin-left: .1rem;
-    border-top: none;
-    border-left: 3px solid var(--bs-fred);
-    top: 0;
-    left: 100%;
+    margin-left: .1rem !important;
+    border-top: none !important;
+    border-left: 3px solid var(--bs-fred) !important;
+    top: 0 !important;
+    left: 100% !important;
 }
 
 .nav-list li:hover>.sub-menu {
-    top: 8rem;
-    opacity: 1;
-    visibility: visible;
+    top: 8rem !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 .sub-menu li:hover>.sub-menu {
-    left: 100%;
-    top: 0;
+    left: 100% !important;
+    top: 0 !important;
 }
 
 li.move-right {
-    margin: auto 0 auto auto;
-    line-height: initial;
-    margin-right: 2rem;
+    margin: auto 0 auto auto !important;
+    line-height: initial !important;
+    margin-right: 2rem !important;
 }
 
 

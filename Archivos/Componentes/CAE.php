@@ -3,31 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cecati 125</title>
     <link rel="shortcut icon" href="imagenes/Favicon-cecati.png" type="image/x-icon">
 
-    <!--Bootstrap y Recursos Pre realizados-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <link href="Css/whats.css" rel="stylesheet">
-    <link href="Css/whats2.css" rel="stylesheet">
-    <link rel="stylesheet" href="Css/frontend.min.css">
-    <link rel="stylesheet" href="Css/frontend2.min.css">
-    <link rel="stylesheet" href="Css/global.css">
-
-    <!--Iconos Pre realizados-->
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!--Estilos Css Realizados-->
-    <link href="Css/styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="Css/whats.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="Css/whats2.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/preparatoria-abierta.css">
     <link href="css/main.css" rel="stylesheet">
+    <link href="Css/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -60,11 +54,26 @@
         <div class="circle-anime"></div>
     </div>
 
-    <?php 
+    <?php
     include 'componentes/header.php';
     ?>
 
-    
+<h1 class="titulo-preparatoria">Capacitación Acelerada Específica (CAE)</h1>
+
+<section class="info-preparatoria container">
+    <div class="contenedor-info get-started">
+        <h2 class="titulo-estudia">Información:</h2>
+        <div class="contenedor-flex">
+            <p class="texto-preparatoria">*Los cursos CAE están dirigidos a los trabajadores en activo de empresas, instituciones u organismos de los sectores productivos y de servicios privado, público y social que pretenden complementar, especializar y/o actualizar la formación de los trabajadores en una determinada actividad laboral. 
+                <br>
+                <br>
+                *Al término del curso se otorga al estudiante una constancia de Capacitación Acelerada Específica (CAE) avalada por la SEP. Son Cursos estructurados de acuerdo a las necesidades de empresas, asociaciones e instituciones, con el propósito de elevar la calidad y la productividad.
+            </p>
+            <img class="img-prepa" src="imagenes/cursos-CAE.JPG" alt="">
+        </div>
+    </div>
+</section>
+
 
     <?php
     include 'componentes/footer.php';

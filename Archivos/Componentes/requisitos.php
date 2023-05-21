@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cecati no.125</title>
     <link rel="shortcut icon" href="imagenes/Favicon-cecati.png" type="image/x-icon">
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- boostrap -->
@@ -21,6 +23,7 @@
     <link href="Css/styles.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- HEADER -->
 
@@ -52,7 +55,7 @@
         <div class="circle-anime"></div>
     </div>
 
-    <?php 
+    <?php
     include 'componentes/header.php';
     ?>
 
@@ -64,48 +67,65 @@
             <h1 style="margin-bottom: 10px;">Requisitos</h1>
             <ul>
                 <li><i class="fa-solid fa-square-check" style="color: #ffffff;">
-                </i><b>
-                    Copia de Acta de Nacimiento
-                </b></li>
+                    </i><b>
+                        Copia de Acta de Nacimiento
+                    </b></li>
                 <li><i class="fa-solid fa-square-check" style="color: #ffffff;">
-                </i><b>
-                    de Certificado de último grado de estudios
-                </b> </li>
+                    </i><b>
+                        de Certificado de último grado de estudios
+                    </b> </li>
                 <li><i class="fa-solid fa-square-check" style="color: #ffffff;">
-                </i><b>
-                    Copia de comprobante de domicilio con código postal
-                </b></li>
+                    </i><b>
+                        Copia de comprobante de domicilio con código postal
+                    </b></li>
                 <li><i class="fa-solid fa-square-check" style="color: #ffffff;">
-                </i><b>
-                    4 fotografías recientes tamaño infantil (Tipo Mate)
-                </b></li>
+                    </i><b>
+                        4 fotografías recientes tamaño infantil (Tipo Mate)
+                    </b></li>
                 <li><i class="fa-solid fa-square-check" style="color: #ffffff;">
-                </i><b>
-                    Copia de CURP</b></li>
+                    </i><b>
+                        Copia de CURP</b></li>
                 <li><i class="fa-solid fa-square-check" style="color: #ffffff;">
-                </i><b>
-                    Edad de 15 a 65 años
-                </b></li>
+                    </i><b>
+                        Edad de 15 a 65 años
+                    </b></li>
                 <li><i class="fa-solid fa-square-check" style="color: #ffffff;">
-                </i><b>
-                    Cuota única por curso
-                </b></li>
-                
+                    </i><b>
+                        Cuota única por curso
+                    </b></li>
+
             </ul>
 
 
         </div>
-        
-        
-        </div>
 
 
-    <?php 
+    </div>
+
+
+    <?php
     include 'componentes/footer.php';
     ?>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="Js/scripts.js"></script>
+
+    <!--Bootstrap y Recursos Pre realizados-->
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="Js/whats.js"></script>
+
+    <!--Javascrip realizado-->
+    <script src="Js/scripts.js"></script>
+
+    <!--Preloader-->
+    <script>
+        const preloader = document.querySelector("#preloader");
+
+        window.addEventListener("load", () => {
+            preloader.style.display = "none";
+        })
+    </script>
 </body>
+
 </html>

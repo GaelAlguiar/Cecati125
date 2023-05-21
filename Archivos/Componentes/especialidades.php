@@ -259,6 +259,8 @@
     <?php 
     include 'componentes/footer.php';
     ?>
+    
+    
     <!--Bootstrap y Recursos Pre realizados-->
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
@@ -269,6 +271,15 @@
 
     <!--Javascrip realizado-->
     <script src="Js/scripts.js"></script>
+
+    <!--Preloader-->
+    <script>
+        const preloader = document.querySelector("#preloader");
+
+        window.addEventListener("load", () => {
+            preloader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>

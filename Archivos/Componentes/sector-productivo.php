@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cecati no.125</title>
     <link rel="shortcut icon" href="imagenes/Favicon-cecati.png" type="image/x-icon">
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- boostrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="Css/whats.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="Css/whats2.css" rel="stylesheet">
-    <link rel="stylesheet" href="Css/styles-sector-productivo.css">
+    <link rel="stylesheet" href="Css/ver-mas.css">
     <link href="css/main.css" rel="stylesheet">
     <link href="Css/styles.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- HEADER -->
 
@@ -50,7 +54,7 @@
         <div class="circle-anime"></div>
     </div>
 
-    <?php 
+    <?php
     include 'componentes/header.php';
     ?>
 
@@ -61,33 +65,33 @@
     <!-- SECTION SERVICIOS -->
     <h2 class="titulo-servicios">Nuestros servicios</h2>
     <section class="servicios container">
-        
 
-            <div class="carta">
+
+        <div class="carta">
             <i class="fa-solid fa-briefcase icono"></i>
             <h3 class="titulo-servicio">Bolsa de trabajo</h3>
             <p class="texto">Ofrecemos a las empresas un banco de egresados y/o alumnos que han cursado por lo menos un módulo de los cursos que impartimos, para ocupar vacantes disponibles de medio tiempo o tiempo completo.</p>
-            </div>
+        </div>
 
-            <div class="carta">
+        <div class="carta">
             <i class="fa-solid fa-school icono"></i>
             <h3 class="titulo-servicio">Plan Escuela - Empresa</h3>
             <p class="texto">Por medio de un convenio con la empresa, se envían alumnos a practicar determinado número de horas en el área de la especialidad que el alumno cursa, para complementar el proceso de enseñanza aprendizaje.</p>
-            </div>
+        </div>
 
-            <div class="carta">
+        <div class="carta">
             <i class="fa-solid fa-hotel icono"></i>
             <h3 class="titulo-servicio">Plan Maestro - Húesped</h3>
             <p class="texto">Comprende la estancia de nuestros instructores en empresas del sector productivo, por un tiempo determinado que le permita conocer las nuevas tecnologías asociadas a la especialidad que imparten, y les permita también tener la capacidad de actualizar los planes y programas de estudio.</p>
-            </div>
+        </div>
 
     </section>
     <!-- FIN SECTION SERVICIOS -->
 
     <!-- SECTION OFRECEMOS  -->
-    <h2  class="titulo-ofrecemos">Ofrecemos</h2>
+    <h2 class="titulo-ofrecemos">Ofrecemos</h2>
     <section class="ofrecemos">
-        
+
         <div class="carta-ofrecemos">
             <div class="columna">
                 <h3 class="subtitulo-ofrecemos">Reconocimiento <span>"ROCO"</span></h3>
@@ -97,7 +101,7 @@
         </div>
 
         <div class="carta-ofrecemos">
-            
+
 
             <div class="columna">
                 <h3 class="subtitulo-ofrecemos">Cursos <span>"CAE"</span></h3>
@@ -135,12 +139,29 @@
     </section>
 
 
-    <?php 
+    <?php
     include 'componentes/footer.php';
     ?>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="Js/scripts.js"></script>
+
+    <!--Bootstrap y Recursos Pre realizados-->
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="Js/whats.js"></script>
+
+    <!--Javascrip realizado-->
+    <script src="Js/scripts.js"></script>
+
+    <!--Preloader-->
+    <script>
+        const preloader = document.querySelector("#preloader");
+
+        window.addEventListener("load", () => {
+            preloader.style.display = "none";
+        })
+    </script>
 </body>
+
 </html>
