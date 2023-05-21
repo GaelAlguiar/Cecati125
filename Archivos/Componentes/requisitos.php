@@ -24,6 +24,8 @@
 <body>
     <!-- HEADER -->
 
+    <div id="preloader"></div>
+
     <div class="nav-bottom">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <div class="popup-whatsapp fadeIn">

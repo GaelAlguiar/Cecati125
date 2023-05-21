@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,9 +38,7 @@
 
 <body>
 
-    <div id="preloader">
-
-    </div>
+    <div id="preloader"></div>
 
     <div id="fb-root"></div>
     <script>(function (d, s, id) {

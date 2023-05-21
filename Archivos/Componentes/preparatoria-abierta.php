@@ -25,6 +25,8 @@
 <body>
     <!-- HEADER -->
 
+    <div id="preloader"></div>
+
     <div class="nav-bottom">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <div class="popup-whatsapp fadeIn">
@@ -117,7 +119,7 @@
                     ¿Que es la preparatoria abierta?
                 </button>
               </h2>
-              <div id="collapseUno" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+              <div id="collapseUno" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
                 <div class="accordion-body">
                   <p>Es un plan de estudio modular que esta integrado por 22 Módulos, los cuales si te propones los puedes acreditar en solo 8 meses.</p>
                 </div>
@@ -130,7 +132,7 @@
                     ¿Que es un modulo?
                 </button>
               </h2>
-              <div id="collapseDos" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+              <div id="collapseDos" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
                 <div class="accordion-body">
                   <p>Un módulo es una unidad de aprendizaje del plan se integran los contenidos de distintos campos de conocimiento, estrategias de enseñanza y aprendizaje, actividades formativas e información cuya finalidad es que desarrolles competencias. (Un modulo es igual a un examen)</p>
                 </div>
@@ -143,7 +145,7 @@
                     ¿Cuando me puedo inscirbir?
                   </button>
                 </h2>
-                <div id="collapseTres" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div id="collapseTres" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <p>Al realizar la inscripción de CECATI puedes realizar tu inscripción en Preparatoria Abierta en el Área de Vinculación con papelería completa.(Durante todo el ciclo escolar están disponibles las inscripciones).</p>
                   </div>
@@ -156,7 +158,7 @@
                     ¿Cúantos módulos puedo presentar por mes?
                   </button>
                 </h2>
-                <div id="collapseCuatro" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div id="collapseCuatro" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
                   <div class="accordion-body">
                     <p>Durante un mes puedes presentar hasta 4 exámenes, de los cuales se presentan 2 cada 15 días.</p>
                   </div>
@@ -169,7 +171,7 @@
                     ¿Cuentan con asesorías?
                   </button>
                 </h2>
-                <div id="collapseCinco" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div id="collapseCinco" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
                   <div class="accordion-body">
                     <p>Si, son de manera presencial en el plantel los sábados a las 12:45 hrs. ,además contamos con una pagina donde puedes presentar exámenes de simulación Daypo.com.</p>
                   </div>
@@ -182,7 +184,7 @@
                     ¿Cómo consigo mis guías?
                   </button>
                 </h2>
-                <div id="collapseSeis" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div id="collapseSeis" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <p>En el Área de Vinculación del Cecati 125 de lunes a sábado en un horario de 8:00 a 13:00 hrs.</p>
                   </div>
@@ -195,7 +197,7 @@
                     ¿Siempre serán en línea los exámenes?
                   </button>
                 </h2>
-                <div id="collapseSiete" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div id="collapseSiete" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
                   <div class="accordion-body">
                     <p>Una vez que el sistema prepa abierta nos indiquen los exámenes serán en el plantel los sábados (previo calendario) a las 12:45 horas.</p>
                   </div>
@@ -208,7 +210,7 @@
                     ¿Cómo se mi resultado del examen?
                   </button>
                 </h2>
-                <div id="collapseOcho" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div id="collapseOcho" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <p>El resultado se envía por correo electrónico 15 días después de haber presentado los exámenes. La calificación mínima aprobatoria es 6 en una escala de 10.</p>
                   </div>
@@ -221,7 +223,7 @@
                     ¿Puedo revalidar mis materias?
                   </button>
                 </h2>
-                <div id="collapseNueve" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div id="collapseNueve" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
                   <div class="accordion-body">
                     <p>Por ser un sistema no escolarizado NO se revalidan materias.</p>
                   </div>
