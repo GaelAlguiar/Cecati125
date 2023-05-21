@@ -15,35 +15,35 @@
 
                 <ul class="nav-list">
                     <li>
-                        <i><a href="index.html">CECATI 125</a></i>
+                        <i><a href="index.php">CECATI 125</a></i>
                     </li>
                     <li>
-                        <a href="especialidades.html" id="especialidades">ESPECIALIDADES&nbsp
+                        <a href="especialidades.php" id="especialidades">ESPECIALIDADES&nbsp
                             <i class="icon ion-md-arrow-dropdown"></i>
                         </a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="especialidades.html#Maquinas-Herramientas">Mantenimiento Industrial</a>
+                                <a href="especialidades.php#Maquinas-Herramientas">Mantenimiento Industrial</a>
                             </li>
                             <li>
-                                <a href="especialidades.html#Mantenimiento Electromecánico">Mecánico Automotriz</a>
+                                <a href="especialidades.php#Mantenimiento Electromecánico">Mecánico Automotriz</a>
                             </li>
                             <li>
-                                <a href="especialidades.html#Soporte a Instalaciones Eléctricas y Motores Eléctricos">Mecátronica</a>
+                                <a href="especialidades.php#Soporte a Instalaciones Eléctricas y Motores Eléctricos">Mecátronica</a>
                             </li>
                             <li>
-                                <a href="especialidades.html#Refrigeración de Aire Acondicionado">Atención Integral de&nbsp
+                                <a href="especialidades.php#Refrigeración de Aire Acondicionado">Atención Integral de&nbsp
                                     <i class="icon ion-md-arrow-dropdown"></i>
                                 </a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="especialidades.html#Atención Integral a Personas Adultas Mayores">Personas Adultas Mayores</a>
+                                        <a href="especialidades.php#Atención Integral a Personas Adultas Mayores">Personas Adultas Mayores</a>
                                     </li>
                                     <li>
-                                        <a href="especialidades.html#Atención a Personas con Discapacidad">Personas con Discapacidad</a>
+                                        <a href="especialidades.php#Atención a Personas con Discapacidad">Personas con Discapacidad</a>
                                     </li>
                                     <li>
-                                        <a href="especialidades.html#Auxiliar en Enfermería">Más...&nbsp
+                                        <a href="especialidades.php#Auxiliar en Enfermería">Más...&nbsp
                                             <i class="icon ion-md-arrow-dropdown"></i>
                                         </a>
                                         <ul class="sub-menu">
@@ -61,24 +61,24 @@
                                 <a href="#Soporte a Instalaciones Eléctricas y Motores Eléctricos">Electrónica</a>
                             </li>
                             <li>
-                                <a href="especialidades.html#Ofimática (Informática)">Informática</a>
+                                <a href="especialidades.php#Ofimática (Informática)">Informática</a>
                             </li>
                             <li>
-                                <a href="especialidades.html#Confección Industrial de Ropa">Mantenimiento a Equipos y Sistemas de Computo</a>
+                                <a href="especialidades.php#Confección Industrial de Ropa">Mantenimiento a Equipos y Sistemas de Computo</a>
                             </li>
                             <li>
-                                <a href="especialidades.html#Asistencia Ejecutiva">Asistente Ejecutiva</a>
+                                <a href="especialidades.php#Asistencia Ejecutiva">Asistente Ejecutiva</a>
                             </li>
                             <li>
-                                <a href="especialidades.html#Dibujo Industrial y Arquitectónico">Estilismo y Diseño de Imagen</a>
+                                <a href="especialidades.php#Dibujo Industrial y Arquitectónico">Estilismo y Diseño de Imagen</a>
                             </li>
                             <li>
-                                <a href="especialidades.html#Administración">Confección Industrial de Ropa</a>
+                                <a href="especialidades.php#Administración">Confección Industrial de Ropa</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="sector-productivo.html" id="sector-productivo">SECTOR &nbspPRODUCTIVO</a>
+                        <a href="sector-productivo.php" id="sector-productivo">SECTOR &nbspPRODUCTIVO</a>
                     </li>
                     <li>
                         <a href="#" id="ofertas-educativas">OFERTAS &nbspEDUCATIVAS&nbsp
@@ -109,13 +109,13 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="preparatoria-abierta.html" id="preparatoria-abierta">PREPARATORIA &nbspABIERTA</a>
+                        <a href="preparatoria-abierta.php" id="preparatoria-abierta">PREPARATORIA &nbspABIERTA</a>
                     </li>
                     <li>
-                        <a href="requisitos.html" id="requisitos">REQUISITOS</a>
+                        <a href="requisitos.php" id="requisitos">REQUISITOS</a>
                     </li>
                     <li class="move-right btn">
-                        <a href="#footer">CONTACTANOS</a>
+                        <a href="footer.php#footer">CONTACTANOS</a>
                     </li>
                 </ul>
             </nav>

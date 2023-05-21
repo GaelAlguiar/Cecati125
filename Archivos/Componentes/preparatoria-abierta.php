@@ -52,7 +52,7 @@
     </div>
 
     <?php 
-    require "header.php";
+    include 'componentes/header.php';
     ?>
 
     <h1 class="titulo-preparatoria">Preparatoria Abierta</h1>
@@ -233,7 +233,7 @@
     <!-- FIN SECTION PREGUNTAS FRECUENTES -->
 
     <?php 
-    require "footer.php";
+    include 'componentes/footer.php';
     ?>
     
     

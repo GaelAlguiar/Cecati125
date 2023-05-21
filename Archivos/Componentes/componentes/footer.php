@@ -9,13 +9,13 @@
     <div class="box1">
 
         <h3>Menú</h3>
-        <a href="#"><i class="fas fa-angle-right"></i>Bienvenidos</a>
+        <a><i class="fas fa-angle-right"></i>Bienvenidos</a>
         <div class="dropdown">
-            <a href="#"><i class="fas fa-angle-right"></i>Especialidades&nbsp&nbsp<i
+            <a><i class="fas fa-angle-right"></i>Especialidades&nbsp&nbsp<i
                     class="icon ion-md-arrow-dropdown"></i></a>
             <div class="menu">
                 <ul>
-                    <li><a href="mantenimiento-indus.html">Mantenimiento al Sistema Eléctrico Automotriz</a>
+                    <li><a href="mantenimiento-indus.php">Mantenimiento al Sistema Eléctrico Automotriz</a>
                     </li>
                     <li><a href="#">Mecánico Automotriz</a></li>
                     <li><a href="#">Mecátronica</a></li>

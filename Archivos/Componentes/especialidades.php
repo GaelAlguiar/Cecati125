@@ -71,7 +71,7 @@
     </div>
 
     <?php 
-    require "header.php";
+    include 'componentes/header.php';
     ?>
 
     <section id="Maquinas-Herramientas" style="text-align: center;">
@@ -265,9 +265,8 @@
     </section>
 
     <?php 
-    require "footer.php";
+    include 'componentes/footer.php';
     ?>
-
     <!--Bootstrap y Recursos Pre realizados-->
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>

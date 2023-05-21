@@ -73,7 +73,7 @@
     </div>
 
     <?php 
-    require "header.php";
+    include 'componentes/header.php';
     ?>
 
     <div class="contenedor">
@@ -306,8 +306,8 @@
             data-numposts="3" data-order-by="reverse_time"></div>
     </div>
 
-    <?php 
-    require "footer.php";
+    <?php
+    include 'componentes/footer.php';
     ?>
 
 
