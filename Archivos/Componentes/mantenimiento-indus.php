@@ -9,15 +9,18 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- boostrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <!--  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="Css/whats.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="Css/whats2.css" rel="stylesheet">
-    <link href="../Componentes/especialidades/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="Css/styles-sector-productivo.css">
-    <script src="https://kit.fontawesome.com/41cd0ceacd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./especialidades/main.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="Css/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
     <!-- HEADER -->
@@ -51,7 +54,7 @@
     </div>
 
     <?php 
-    require "header.php";
+    include 'componentes/header.php';
     ?>
 
     <!-- SECTION BODIE -->
@@ -71,44 +74,40 @@
             <h2>
                 Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de la Mantenimiento al Sistema Eléctrico Automotriz, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación para elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello la inserción de la persona/estudiante en dicho contexto.
             </h2>
-            <div style="margin: 0 auto;" >
-
-                <table class="tabla" >
-                    <tr>
-                        <td>
-                            <div class="acad" >
+            
+                <br><hr><br>
+                
+                        <div class="acad" >
                             <h1>Certificación académica	</h1>
                             <hr><br>
                             <h2>
                                 El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo con los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
                             </h2>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="lab" >
+                        </div>
+                    
+                    <br><hr><br>
+                    
+                        <div class="lab" >
                                 <h1>Certificación laboral	</h1>
                                 <hr><br>
                                 <h2>
                                     El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
                                 </h2>
                             </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <br><br>
-                            <div class="enf" > 
+                    
+                    <br><hr><br>
+                    
+                        <div class="enf" > 
                                 <h1>Enfoque educativo	</h1>
                                 <hr><br>
                                 <h2>
                                     Enfoque de Competencias Integrales
                                 </h2>
                             </div>
-                            
-                        </td>
-                        <td>
-                            <br><br>
-                            <div class="esp" >
+                    
+                    <br><hr><br>
+                    
+                        <div class="esp" >
                                 
                                 <h1>Esta especialidad oferta cursos regulares</h1>
                                 <hr><br>
@@ -116,12 +115,8 @@
                                     Enfoque de Competencias Integrales
                                 </h2>
                             </div>
-                        </td>
-                    </tr>
                     
-                </table>
-
-            </div>
+                
             
             
         </div>

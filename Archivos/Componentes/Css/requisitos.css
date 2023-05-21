@@ -36,3 +36,11 @@
   background-color: white;
   margin-top: 15px;
 }
+
+@media (max-width: 800px) and (orientation: portrait){
+    .one{
+        width: auto;
+    }
+    
+    
+}
