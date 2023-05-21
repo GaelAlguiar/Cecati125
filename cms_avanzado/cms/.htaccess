@@ -1,0 +1,16 @@
+
+# HTID:21668584: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:21668584:
+
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^log-out$ res/php/user_actions/log-out.php [QSA]
+
+#Rutas administradores 
+RewriteRule ^admin/posts$ admin/index.php?section=posts [QSA]
+RewriteRule ^admin/categories$ admin/index.php?section=categories [QSA]
+
+#Rutas usuarios
+RewriteRule ^post/([0-9]+)$ index.php?section=post&post_Id=$1 [QSA]
